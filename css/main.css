@@ -1,5 +1,5 @@
 html {
-	background-color: #7ecfea;
+	background-color: #ffc000;
 }
 
 h1 {
@@ -21,7 +21,8 @@ ol {
 }
 
 a {
-	color: purple;
+	color: #de4900;
+	text-decoration: none;
 }
 
 .mars {
@@ -31,3 +32,10 @@ a {
 .venus {
 	color: limegreen;
 }
+
+mark {
+	background-color: #ffc000;
+  color: black;
+}
+
+
