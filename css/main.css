@@ -1,0 +1,33 @@
+html {
+	background-color: #7ecfea;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 7rem;
+	font-style: italic;
+	font-family: "Denk One", sans-serif;
+	line-height: 1.5;
+	color: #0a1758;
+}
+
+ol {
+	list-style-type: none;
+	font-weight: normal;
+	font-size: 2rem;
+	font-family: "Denk One", sans-serif;
+	line-height: 1.5;
+	padding: 0;
+}
+
+a {
+	color: purple;
+}
+
+.mars {
+	color: limegreen;
+}
+
+.venus {
+	color: limegreen;
+}
