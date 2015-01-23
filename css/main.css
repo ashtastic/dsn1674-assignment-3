@@ -11,6 +11,24 @@ h1 {
 	color: #0a1758;
 }
 
+h2, h3 {
+	font-weight: bold;
+	font-size: 3rem;
+	font-family: "Denk One", sans-serif;
+	line-height: 1;
+	color: #001f6e;
+}
+
+p {
+	font-size: 1rem;
+	font-family: "Arial", serif;
+	line-height: 1.5;
+}
+
+strong {
+	color: red;
+}
+
 ol {
 	list-style-type: none;
 	font-weight: normal;
@@ -25,12 +43,13 @@ a {
 	text-decoration: none;
 }
 
-.mars {
-	color: limegreen;
+a:hover{
+	color: white;
 }
 
-.venus {
-	color: limegreen;
+.mars, .venus {
+	color: #de4900;
+	font-size: 1.5rem;
 }
 
 mark {
