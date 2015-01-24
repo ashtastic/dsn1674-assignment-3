@@ -80,6 +80,10 @@ a:hover{
 	color: white;
 }
 
+a:active{
+	color: purple;
+}
+
 mark {
 	background-color: #ffc000;
   color: black;
