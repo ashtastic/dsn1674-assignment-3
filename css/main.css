@@ -8,15 +8,23 @@ h1 {
 	font-style: italic;
 	font-family: "Denk One", sans-serif;
 	line-height: 1.5;
-	color: #0a1758;
+	color: black;
 }
 
-h2, h3 {
+h2 {
 	font-weight: bold;
 	font-size: 3rem;
 	font-family: "Denk One", sans-serif;
 	line-height: 1;
 	color: #001f6e;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 2rem;
+	font-family: "Denk One", sans-serif;
+	line-height: 1;
+	color: #054808;
 }
 
 p {
@@ -29,17 +37,22 @@ strong {
 	color: red;
 }
 
+
 ol {
 	list-style-type: none;
-	font-weight: normal;
-	font-size: 2rem;
-	font-family: "Denk One", sans-serif;
-	line-height: 1.5;
 	padding: 0;
 }
 
-li {
-	list-style-type: decimal;
+.mer, .ven, .ear, .mar {
+	font-size: 1rem;
+	font-family: "Arial", sans-serif;
+	line-height: 1.5;
+}
+
+.mars, .venus {
+	color: #de4900;
+	font-size: 1rem;
+	font-family: "Arial", sans-serif;
 }
 
 dl {
@@ -54,6 +67,10 @@ dt {
 }
 
 a {
+	font-weight: normal;
+	font-size: 2rem;
+	font-family: "Denk One", sans-serif;
+	line-height: 1.5;
 	color: #de4900;
 	text-decoration: none;
 }
@@ -62,15 +79,13 @@ a:hover{
 	color: white;
 }
 
-.mars, .venus {
-	color: #de4900;
-	font-size: 1rem;
-	font-family: "Arial", sans-serif;
-}
-
 mark {
 	background-color: #ffc000;
   color: black;
 }
 
-
+figcaption {
+	font-size: .75rem;
+	font-style: italic;
+	font-family: "Arial", sans-serif;
+}
