@@ -1,30 +1,29 @@
 html {
-	background-color: #ffc000;
+	background-color: #dbd6cf;
 }
 
 h1 {
 	font-weight: bold;
-	font-size: 7rem;
-	font-style: italic;
+	font-size: 3rem;
 	font-family: "Denk One", sans-serif;
 	line-height: 1.5;
-	color: black;
+	color: #79756f;
 }
 
 h2 {
 	font-weight: bold;
-	font-size: 4rem;
+	font-size: 2rem;
 	font-family: "Denk One", sans-serif;
-	line-height: 1;
-	color: #001f6e;
+	line-height: 2;
+	color: #79756f;
 }
 
 h3 {
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 1.75rem;
 	font-family: "Denk One", sans-serif;
 	line-height: 1;
-	color: green;
+	color: #79756f;
 }
 
 p {
@@ -34,19 +33,23 @@ p {
 }
 
 strong {
-	color: red;
+	color: #86827c;
 }
 
 blockquote q {
-	font-size: 2rem;
+	font-family: "Georgia", serif;
+	font-size: 1.5rem;
 	font-style: italic;
 	line-height: 1.5;
 }
 
 blockquote footer {
+	font-family: "Georgia", serif;
+	color: #79756f;
 	text-align: right;
-	line-height: 8;
-	font-size: 2;
+	line-height: 4;
+	font-size: .75rem;
+
 }
 
 nav ol {
@@ -73,14 +76,14 @@ aside ol {
 
 .mars, .venus {
 	list-style-type: circle;
-	color: #de4900;
+	color: #713837;
 	font-size: 1rem;
 	font-family: "Arial", sans-serif;
 }
 
 dl {
 	list-style-type: none;
-	font-size: 2 rem;
+	font-size: 1rem;
 	font-family: "Arial", sans-serif;
 	line-height: 1.5;
 }
@@ -91,24 +94,19 @@ dt {
 
 a {
 	font-weight: normal;
-	font-size: 2rem;
-	font-family: "Denk One", sans-serif;
+	font-size: 1rem;
+	font-family: "Arial", sans-serif;
 	line-height: 1.5;
-	color: #de4900;
-	text-decoration: none;
+	color: #713837;
 }
 
 a:hover {
-	color: white;
-}
-
-a:visited {
-	color: purple;
+	color: red;
 }
 
 mark {
-	background-color: #ffc000;
-  color: black;
+	background-color: #dbd6cf;
+	color: black;
 }
 
 figcaption {
