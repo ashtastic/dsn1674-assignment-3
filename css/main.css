@@ -37,8 +37,30 @@ strong {
 	color: red;
 }
 
-ol {
+blockquote q {
+	font-size: 2rem;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+blockquote footer {
+	text-align: right;
+	line-height: 8;
+	font-size: 2;
+}
+
+nav ol {
 	list-style-type: none;
+	padding: 0;
+}
+
+h2 ol {
+	list-style-type: lower-roman;
+	padding: 1;
+}
+
+aside ol {
+	list-style-type: circle;
 	padding: 1;
 }
 
@@ -76,11 +98,11 @@ a {
 	text-decoration: none;
 }
 
-a:hover{
+a:hover {
 	color: white;
 }
 
-a:active{
+a:visited {
 	color: purple;
 }
 
