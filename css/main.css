@@ -13,7 +13,7 @@ h1 {
 
 h2 {
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 4rem;
 	font-family: "Denk One", sans-serif;
 	line-height: 1;
 	color: #001f6e;
@@ -21,10 +21,10 @@ h2 {
 
 h3 {
 	font-weight: bold;
-	font-size: 2rem;
+	font-size: 3rem;
 	font-family: "Denk One", sans-serif;
 	line-height: 1;
-	color: #054808;
+	color: green;
 }
 
 p {
@@ -37,19 +37,20 @@ strong {
 	color: red;
 }
 
-
 ol {
 	list-style-type: none;
-	padding: 0;
+	padding: 1;
 }
 
 .mer, .ven, .ear, .mar {
+	list-style-type: lower-roman;
 	font-size: 1rem;
 	font-family: "Arial", sans-serif;
 	line-height: 1.5;
 }
 
 .mars, .venus {
+	list-style-type: circle;
 	color: #de4900;
 	font-size: 1rem;
 	font-family: "Arial", sans-serif;
